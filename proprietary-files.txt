@@ -1,0 +1,128 @@
+
+# Audio
+vendor/lib/soundfx/libaudiopreprocessing.so
+
+# Audio-Hardware
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.goldfish.so
+vendor/lib/hw/audio.primary.goldfish_legacy.so
+vendor/lib/hw/audio.r_submix.default.so
+
+# Camera
+vendor/lib/hw/camera.goldfish.jpeg.so
+vendor/lib/hw/camera.goldfish.so
+vendor/lib/hw/camera.ranchu.jpeg.so
+vendor/lib/hw/camera.ranchu.so
+
+# DRM
+
+# DRM-Widevine
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
+vendor/lib/libwvhidl.so
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
+
+# Display-Hardware
+vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so
+vendor/lib/hw/gralloc.default.so
+vendor/lib/hw/gralloc.goldfish.default.so
+vendor/lib/hw/gralloc.goldfish.so
+vendor/lib/hw/gralloc.ranchu.so
+vendor/lib/hw/hwcomposer.goldfish.so
+vendor/lib/hw/hwcomposer.ranchu.so
+
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/lib/hw/fingerprint.goldfish.so
+vendor/lib/hw/fingerprint.ranchu.so
+
+# GPS
+vendor/bin/hw/android.hardware.gnss@1.0-service
+vendor/etc/init/android.hardware.gnss@1.0-service.rc
+vendor/lib/hw/android.hardware.gnss@1.0-impl.so
+
+# GPS-Hardware
+
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib/hw/gatekeeper.ranchu.so
+
+# Graphics
+vendor/lib/egl/libEGL_emulation.so
+vendor/lib/egl/libEGL_swiftshader.so
+vendor/lib/egl/libGLESv1_CM_emulation.so
+vendor/lib/egl/libGLESv1_CM_swiftshader.so
+vendor/lib/egl/libGLESv2_emulation.so
+vendor/lib/egl/libGLESv2_swiftshader.so
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@3.0-service
+vendor/etc/init/android.hardware.keymaster@3.0-service.rc
+vendor/lib/hw/android.hardware.keymaster@3.0-impl.so
+vendor/lib/libkeymaster3device.so
+
+# Keystore
+vendor/lib/libkeystore-engine-wifi-hidl.so
+vendor/lib/libkeystore-wifi-hidl.so
+
+# Listen
+
+# Media
+
+# Media-Hardware
+
+# Perf
+
+# Postprocessing
+
+# Power-Hardware
+vendor/bin/hw/android.hardware.power@1.1-service.ranchu
+vendor/etc/init/android.hardware.power@1.1-service.ranchu.rc
+
+# QMI
+
+# Radio
+
+# Sensors
+vendor/lib/hw/sensors.ranchu.so
+
+# Time
+
+# WiFi
+
+# rootdir
+vendor/bin/dhcpclient
+vendor/bin/dhcpserver
+vendor/bin/execns
+vendor/bin/hostapd_nohidl
+vendor/bin/ipv6proxy
+vendor/bin/netmgr
+vendor/bin/qemu-props
+vendor/etc/fstab.ranchu
+vendor/etc/simulated_hostapd.conf
+
+# Misc
+vendor/bin/createns
+vendor/bin/halutil
+vendor/bin/hw/android.hardware.broadcastradio@1.1-service
+vendor/bin/hw/rild
+vendor/etc/init/android.hardware.broadcastradio@1.1-service.rc
+vendor/etc/init/rild.rc
+vendor/etc/permissions/LowPowerMonitorDeviceStub.xml
+vendor/etc/permissions/PowerAnomalyStub.xml
+vendor/etc/permissions/privapp-permissions-goldfish.xml
+vendor/etc/primary_audio_policy_configuration.xml
+vendor/lib/hw/gps.goldfish.so
+vendor/lib/hw/gps.ranchu.so
+vendor/lib/hw/tv_input.default.so
+vendor/lib/libGLESv1_enc.so
+vendor/lib/libGLESv2_enc.so
+vendor/lib/libgoldfish-ril.so
+vendor/lib/libhwminijail.so
+vendor/lib/libOpenglSystemCommon.so
+vendor/lib/libpcap.so
+vendor/lib/libwifi-hal.so
+vendor/lib/lib_renderControl_enc.so

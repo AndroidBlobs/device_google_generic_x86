@@ -1,0 +1,15 @@
+PRODUCT_PROPERTY_OVERRIDES +=  \
+    drm.service.enabled=true \
+    keyguard.no_require_sim=true \
+    media.mediadrmservice.enable=true \
+    persist.bluetooth.enablenewavrcp=false \
+    ro.carrier=unknown \
+    ro.com.android.dataroaming=true \
+    ro.config.alarm_alert=Oxygen.ogg \
+    ro.config.notification_sound=Tethys.ogg \
+    ro.config.ringtone=Girtab.ogg \
+    ro.dalvik.vm.native.bridge=0 \
+    ro.hardware.audio.primary=caremu \
+    ro.hardware.power=ranchu \
+    ro.opa.eligible_device=true \
+    vendor.rild.libpath=/vendor/lib/libgoldfish-ril.so \

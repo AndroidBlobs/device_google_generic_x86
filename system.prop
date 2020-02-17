@@ -1,0 +1,10 @@
+#
+# from build/target/board/generic_x86/system.prop
+#
+#
+# system.prop for generic sdk
+#
+
+rild.libpath=/vendor/lib/libreference-ril.so
+
+#
